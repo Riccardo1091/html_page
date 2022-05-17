@@ -1,1 +1,30 @@
+:root {
+	--rs-color: #b41923;
+	--rs-color-blue: #0f161e;
+	--rs-max-width: 1300px;
+	--rs-article-width: 33.333%;
+	--rs-title: #000;
+	--rs-red-border-width: 4px;
+	--rs-font: 'Graphik';
+	--rs-h3-big: 45px;
+	--rs-h3-medium: 28px;
+	--rs-h3-small: 18px;
+	--rs-p-size: 14px;
+	--rs-font-weight: 700;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
 
+body {font-family:var(--rs-font);}
+
+@font-face {
+    font-family: 'Graphik';
+    src: url('fonts/Graphik-Regular.woff2') format('woff2'),
+        url('fonts/Graphik-Regular.woff') format('woff'),
+        url('fonts/Graphik-Regular.ttf') format('truetype'),
+        url('fonts/Graphik-Regular.svg#Graphik-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

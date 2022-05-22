@@ -112,7 +112,7 @@ a{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 35px;
+    gap: 40px;
     overflow: hidden;
 }
 
@@ -124,6 +124,11 @@ a{
 
 .video-item {
     height: 200px;
+    padding-top: 8px;
+}
+
+.video-item img:hover {
+    border: 1px solid white;
 }
 
 

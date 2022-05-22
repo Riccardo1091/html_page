@@ -54,7 +54,7 @@ a{
 .c-videogallery-main {
     display: flex;
     flex-direction: row;
-    border-bottom: 1px solid rgba(154, 152, 152, 0.415);
+    border-bottom: 1px solid rgba(154, 152, 152, 0.21);
     padding-bottom: 15px;
 }
 
@@ -105,6 +105,27 @@ a{
     padding-top: 30px;
     padding-left: 48px;
 }
+
+.c-videogallery-slideshow {
+    padding: 14px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+    overflow: hidden;
+}
+
+.c-videogallery-slideshow h3 {
+    font-size:15px;
+    color: white;
+    margin: 5px;
+}
+
+.video-item {
+    height: 200px;
+}
+
 
 
 

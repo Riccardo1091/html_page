@@ -1,3 +1,4 @@
+/* FOGLIO STILE COMUNE */
 :root {
 	--rs-color: #b41923;
 	--rs-color-blue: #0f161e;
@@ -17,7 +18,9 @@
     box-sizing: border-box;
 }
 
-body {font-family:var(--rs-font);}
+body {
+    font-family:var(--rs-font);
+}
 
 @font-face {
     font-family: 'Graphik';
@@ -29,3 +32,81 @@ body {font-family:var(--rs-font);}
     font-style: normal;
     font-display: swap;
 }
+
+/*FOGLIO STILE MARCO*/
+
+a{
+    text-decoration: none;
+}
+
+.container-videogallery {
+    background-color: var(--rs-color-blue);
+    margin: 0 auto;
+    width: 1300px;
+    height: 712px;
+    max-width: var(--rs-max-width);
+    border-top: var(--rs-red-border-width) solid var(--rs-color);
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.c-videogallery-main {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgba(154, 152, 152, 0.415);
+    padding-bottom: 15px;
+}
+
+.c-video-content {
+    display: flex;
+    flex-direction: column;
+    width: 445px;
+    height: 371px;
+}
+
+.video-header {
+    display: flex;
+    flex-direction: row;
+    padding-left: 24px;
+    font-size: var(--rs-h3-small);
+}
+
+.video-header > h6 > a {
+    color: var(--rs-color);
+    padding-left: 12px;
+    display: block;
+    padding-top: 10px;
+}
+
+.video-text {
+    padding-top: 40px;
+    padding-left: 25px;
+}
+
+.video-text h5 {
+    text-decoration: underline solid var(--rs-color) 2px;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+.video-text > h3 > a {
+    font-size: 35px;
+    color: white;
+}
+
+.video-text > p {
+    font-size: 20px;
+    padding-top: 18px;
+    padding-left: 8px;
+}
+
+.c-video-frame {
+    padding-top: 30px;
+    padding-left: 48px;
+}
+
+
+
+
+

@@ -159,11 +159,15 @@ a{
     top: 60px;
     left: 75px;
     border: 2px solid var(--rs-color);
-    padding: 5px;
+    padding: 5px 8px 1px;
 }
 
-
-
-
-
-
+.container-photogallery {
+    margin: 0 auto;
+    width: 1260px;
+    height: 712px;
+    max-width: var(--rs-max-width);
+    border-top: var(--rs-red-border-width) solid var(--rs-color);
+    display: flex;
+    flex-direction: column;
+}

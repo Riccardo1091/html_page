@@ -72,6 +72,10 @@ a{
     font-size: var(--rs-h3-small);
 }
 
+.video-header h1 {
+    font-weight: bold;
+}
+
 .video-header > h6 > a {
     color: var(--rs-color);
     padding-left: 12px;
@@ -88,17 +92,20 @@ a{
     text-decoration: underline solid var(--rs-color) 2px;
     font-size: 12px;
     padding-left: 5px;
+    font-weight: bold;
 }
 
 .video-text > h3 > a {
-    font-size: 35px;
+    font-size: 36px;
     color: white;
+    font-weight: bold;
 }
 
 .video-text > p {
-    font-size: 20px;
+    font-size: 18px;
     padding-top: 18px;
-    padding-left: 10px;
+    padding-left: 4px;
+    font-weight: bold;
 }
 
 .c-video-frame {
@@ -117,7 +124,7 @@ a{
 }
 
 .c-videogallery-slideshow h3 {
-    font-size:15px;
+    font-size:14px;
     color: white;
     margin: 5px;
 }

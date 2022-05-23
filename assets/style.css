@@ -113,6 +113,10 @@ a{
     padding-left: 14px;
 }
 
+.c-video-frame iframe {
+    border: 1px solid var(--rs-color);
+}
+
 .c-videogallery-slideshow {
     padding: 14px 20px;
     display: flex;
@@ -134,8 +138,28 @@ a{
     padding-top: 8px;
 }
 
-.video-item img:hover {
+.video-item img:hover:not(.video-active) {
     border: 1px solid white;
+    transition-duration: 0.2s;
+}
+
+.video-active, .video-active:hover {
+    outline: 2px solid var(--rs-color);
+    opacity: 0.4;
+}
+
+.now-playing {
+    position: relative;
+}
+
+.now-playing h1 {
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 60px;
+    left: 75px;
+    border: 2px solid var(--rs-color);
+    padding: 5px;
 }
 
 

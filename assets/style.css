@@ -205,14 +205,21 @@ a{
 
 
 .photogallery-header > h6 > a {
-    color: grey;
+    color: rgb(106, 106, 106);
     font-size: 12px;
-    border: 1px solid grey;
-    border-radius: 20px;
+    border: 2px solid rgb(156, 156, 156);
+    border-radius: 10px;
     margin-right: 20px;
-    padding: 5px;
+    padding: 4px 8px;
     height: 14px;
     font-weight: bold;
+    background-color:rgba(108, 107, 107, 0.274);
+}
+
+.photogallery-header > h6 > a:hover {
+    color: rgba(113, 113, 113, 0.727);
+    border-color: rgba(113, 113, 113, 0.536);
+    background-color:rgba(131, 130, 130, 0.216);
 }
 
 .c-photogallery-slideshow {
@@ -224,10 +231,66 @@ a{
     gap: 60px;
 }
 
-.slideshow-photoframe-1 {
+.slideshow-photoframe-1, .slideshow-photoframe-2 {
     position: relative;
-    
 }
+
+.slideshow-photoframe-1 > a > img:hover, .slideshow-photoframe-2 > a > img:hover {
+    border: 4px solid var(--rs-color);
+    transition-duration: 0.2s;
+}
+
+.photo-icon-1, .photo-icon-2 {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    top: 26px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.679);
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.photo-icon-1 span, .photo-icon-2 span {
+    padding: 0 4px;
+}
+
+.photo-text-1, .photo-text-2 {
+    color: white;
+    font-weight: bolder;
+    width: 550px;
+    position: absolute;
+    bottom: 75px;
+    left: 18px;
+    text-shadow: 4px 4px 8px #000000, 4px 4px 8px #000000, 4px 4px 8px #000000;
+}
+
+.photo-text-1 h3, .photo-text-2 h3 {
+    font-size: 34px;
+    font-weight: 90px;
+}
+
+.photo-text-1 p, .photo-text-2 p {
+    font-size: 19px;
+    font-weight: 4px;
+}
+
+.mini-photo-box {
+    position: relative;
+    bottom: 100px;
+    left: 565px;
+    width: 200px; 
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.mini-photo-box img:hover {
+    border: 2px solid white;
+    transition-duration: 0.2s;
+}
+
 
 
 

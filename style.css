@@ -42,7 +42,7 @@ a{
 .container-videogallery {
     background-color: var(--rs-color-blue);
     margin: 0 auto;
-    width: 1300px;
+    width: 1260px;
     height: 712px;
     max-width: var(--rs-max-width);
     border-top: var(--rs-red-border-width) solid var(--rs-color);
@@ -98,12 +98,12 @@ a{
 .video-text > p {
     font-size: 20px;
     padding-top: 18px;
-    padding-left: 8px;
+    padding-left: 10px;
 }
 
 .c-video-frame {
     padding-top: 30px;
-    padding-left: 48px;
+    padding-left: 14px;
 }
 
 .c-videogallery-slideshow {

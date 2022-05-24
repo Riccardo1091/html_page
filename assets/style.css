@@ -323,10 +323,11 @@ a{
     .c-videogallery-main {
         display: flex;
         flex-direction: column;
+        height: 600px;
     }
 
     .c-video-content {
-        height: 180px;
+        height: 150px;
     }
 
     .video-text {
@@ -348,15 +349,14 @@ a{
 
     .iframe-resp {
         display: block;
-    }
+    } 
 
     .video-header {
-        height: 45%;
+        height: 40%;
     }
 
     .video-header h1 {
         font-size: 52px;
-        margin-bottom: 0px;
     }
 
     .video-header h6 {

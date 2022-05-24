@@ -326,7 +326,7 @@ a{
     }
 
     .c-video-content {
-        height: 200px;
+        height: 180px;
     }
 
     .video-text {
@@ -338,6 +338,10 @@ a{
         display: none;
     }
 
+    .video-text > h5 {
+        display: none;
+    }
+
     .iframe-normal {
         display: none;
     }
@@ -346,9 +350,17 @@ a{
         display: block;
     }
 
+    .video-header {
+        height: 45%;
+    }
+
     .video-header h1 {
         font-size: 52px;
         margin-bottom: 0px;
+    }
+
+    .video-header h6 {
+        padding-top: 20px;
     }
 
     /*PHOTOGALLERY RESPONSIVE MARCO*/
@@ -368,7 +380,7 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 50px;
+    height: 70px;
     }
 
     .c-photogallery-slideshow {
@@ -404,7 +416,7 @@ a{
     }
 
     .slideshow-photoframe-1 {
-        border-bottom: 3px solid grey;
+        border-bottom: 3px solid rgb(98, 98, 98);
     }
 
 }

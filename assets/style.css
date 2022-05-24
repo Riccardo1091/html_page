@@ -205,21 +205,21 @@ a{
 
 
 .photogallery-header > h6 > a {
-    color: rgb(106, 106, 106);
+    color: rgba(113, 113, 113, 0.727);
     font-size: 12px;
-    border: 2px solid rgb(156, 156, 156);
+    border: 2px solid rgba(113, 113, 113, 0.536);
     border-radius: 10px;
     margin-right: 20px;
     padding: 4px 8px;
     height: 14px;
     font-weight: bold;
-    background-color:rgba(108, 107, 107, 0.274);
+    background-color:rgba(131, 130, 130, 0.216);
 }
 
 .photogallery-header > h6 > a:hover {
-    color: rgba(113, 113, 113, 0.727);
-    border-color: rgba(113, 113, 113, 0.536);
-    background-color:rgba(131, 130, 130, 0.216);
+    color: rgb(106, 106, 106);
+    border: 2px solid rgb(156, 156, 156);
+    background-color:rgba(108, 107, 107, 0.274);
 }
 
 .c-photogallery-slideshow {

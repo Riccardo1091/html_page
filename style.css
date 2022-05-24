@@ -1,1 +1,62 @@
+.news-group {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr; 
+    gap: 10px 10px; 
+    grid-template-areas: 
+    "news-preview1 news-preview2 ."
+    "news-preview1 news-preview2 ."
+    "news-preview3 news-preview4 news-preview5"
+    "news-preview3 news-preview4 news-preview5"; 
+}
+
+.news-preview1 { 
+    grid-area: news-preview1; 
+}
+  
+.news-preview2 { 
+    grid-area: news-preview2; 
+}
+  
+.news-preview3 { 
+    grid-area: news-preview3; 
+}
+ 
+.news-preview4 { 
+    grid-area: news-preview4; 
+}
+  
+.news-preview5 { 
+    grid-area: news-preview5; 
+}
+
+.album-review {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: normal;
+    align-content: center;
+    background-color: #f4f4f7;
+}
+  
+.album-review-box1 {
+}
+  
+.album-review-box2 {
+}
+  
+.album-review-box3 {
+}
+  
+.album-review-box4 {
+}
+
+.news-img{
+    height: 190px;
+    width: 285px;
+}
+
+
+
 

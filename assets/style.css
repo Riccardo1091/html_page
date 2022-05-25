@@ -169,6 +169,10 @@ li:last-child a {
     overflow: visible;
 }
 
+#link-list-766px {
+    display: none;
+}
+
 
 
 /* stile del area delle recenzione degli album */
@@ -234,6 +238,8 @@ li:last-child a {
     font-family: var(--rs-font)
 }
 
+
+
 @media only screen and (max-width: 766px) {
     .music-box {
         width: auto;
@@ -263,7 +269,7 @@ li:last-child a {
         padding: auto;
     }
 
-    .news-text{
+    .news-text {
         display: none;
     }
 
@@ -301,16 +307,26 @@ li:last-child a {
         align-content: space-between;
         background-color: #f4f4f7;
         text-align: center;
-        height: 25%;
-        width: 125%;
+        width: 100%;
     }
 
     .album-text {
         height: max-content;
     }
 
-    .link-list{
+    #link-list {
+        display: none;
+    }
+
+    #link-list-766px {
+        display: block;
         width: 100%;
+        margin: 0;
+        padding-left: 25%;
+    }
+
+    .album-review article{
+        flex: 50%;
     }
 
 }
@@ -366,11 +382,15 @@ li:last-child a {
         align-content: space-between;
         background-color: #f4f4f7;
         text-align: center;
-        height: 50%;
-        width: 125%;
     }
 
-    .album-text {
-        height: min-content;
+
+    .album-review article{
+        flex: 50%;
     }
+
+    #link-list-766px {
+        display: none;
+    }
+
 }

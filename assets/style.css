@@ -1693,7 +1693,7 @@ header {
     float: right;
 }
 
-li:last-child a {
+.title-section li:last-child a {
     display: block;
     border: 1px solid gray;
     text-decoration: none;

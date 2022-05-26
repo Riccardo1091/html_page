@@ -18,7 +18,7 @@
     box-sizing:border-box;
     list-style-type:none;
     text-decoration:none;
-    color:black;
+   
 	
 	
 }
@@ -38,6 +38,8 @@ a, a:hover {-webkit-transition:all 0.4s 0s ease;
     font-style:normal;
     font-display:swap;
 }
+
+body, h2, h3, h4, a, p {font-family:'Graphik';}
 
 /* RICCARDO PIRRELLO NAV0HEAD1 */
 @media screen and (min-width:959px) {
@@ -1521,6 +1523,7 @@ a, a:hover {-webkit-transition:all 0.4s 0s ease;
 	/*----------------------------------------------*/
 /*Ric R Css*/
 h2 {letter-spacing:-.5px;font-size:var(--rs-h3-medium);font-weight:var(--rs-font-weight);}
+#main2 a {color: black;}
 
 .main2-mega-container {position: relative;width: 100%}
 
@@ -2152,6 +2155,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     height: 61.5px;
+    align-items: center;
 }
 
 .photogallery-header-title {

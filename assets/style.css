@@ -12,7 +12,7 @@ body, h2, h3, h4, a, p, .nav0-grid-dropdown>a {font-family:'Graphik';}
 body > div.nav0-feature > div * { font-family:'GraphikBold' ;}
 
 /* RICCARDO MARIA PIRRELLO NAV0HEAD1 */
-@media screen and (min-width:959px) {.header1-login-nav,.nav0-logo-div {display:none;}
+@media screen and (min-width:961px) {.header1-login-nav,.nav0-logo-div {display:none;}
 	.media-hamburger__icon {display:none;}
 	.l-header__wrap {width:100%;max-width:100%;height:3.1875rem;line-height:24px;}
 	.l-header__wrap {height:9.5rem;}
@@ -100,7 +100,7 @@ body > div.nav0-feature > div * { font-family:'GraphikBold' ;}
 	.nav0-logo-div {height:100%;}
 }
 /* NAV0 */
-@media screen and (min-width:959px) {.nav0-feature {width:100%;min-height:100vh;background-color:black;line-height:24px;font-family:GraphikBold;}
+@media screen and (min-width:961px) {.nav0-feature {width:100%;min-height:100vh;background-color:black;line-height:24px;font-family:GraphikBold;}
 	.nav0-login,.nav0-close-button-media-query {display:none;}
 	.nav0-wrapper {display:flex;flex-flow:column nowrap;top:0;width:100%;height:inherit;max-width:62.5rem;margin:0 auto;padding:0 1.25rem;font-family:GraphikBold;}
 	.nav0-section-socials,.nav0-footer,.nav0-nav {display:flex;flex-flow:row nowrap;justify-content:space-between;align-items:center;border-bottom:1px solid #303030;max-width:62.5rem;}
@@ -159,7 +159,7 @@ body > div.nav0-feature > div * { font-family:'GraphikBold' ;}
 }
 /*----------------------------------------------*/
 /* MOBILE */
-@media screen and (max-width:959px) {.nav0-label-close {position:static;margin:0 0;padding:0 0;background-color:inherit;border:transparent;color:black;}
+@media screen and (max-width:960px) {.nav0-label-close {position:static;margin:0 0;padding:0 0;background-color:inherit;border:transparent;color:black;}
 	.nav0-feature {display:none;}
 	/* HIDDEN  */.nav0-close-button,.nav0-grid-bottom-side,.nav0-footer ul {display:none;}
 	input[type=checkbox]:checked+.nav0-feature {display:block;}
@@ -478,7 +478,6 @@ header {border-top:var(--rs-red-border-width) solid var(--rs-color);}
 	.c-videogallery-main {display:flex;flex-direction:column;height:600px;}
 	.video-text p, .mini-photo-box, .video-text>h5 {display:none;}
 	.video-text {padding-top:0;}
-	.video-header, .video-text {padding-bottom:1rem;}
 	.video-header h1 {font-size:52px;}
 	/*PHOTOGALLERY RESPONSIVE MARCO*/
 	.container-photogallery {margin:0 auto;border-top:var(--rs-red-border-width) solid var(--rs-color);display:flex;flex-direction:column;}
@@ -491,13 +490,15 @@ header {border-top:var(--rs-red-border-width) solid var(--rs-color);}
 	.photo-text-1 p,.photo-text-2 p {font-size:14px;font-weight:10px;}
 	.slideshow-photoframe-1 {border-bottom:3px solid rgb(98, 98, 98);width:100%;}
 	.c-video-frame {height:100%;}
-	.c-videogallery-main > div {flex:100%;flex-wrap:wrap;}
+	.c-videogallery-main > div {flex-wrap:wrap;}
+	.c-video-content {flex:0.7; }
+	.c-videogallery-slideshow {overflow-x: scroll}
 }
 @media only screen and (max-width:360px) {
 	.video-header, .video-text {width:min-content}
 	.c-video-frame iframe {width:initial;}
 	.video-text {padding:0;}
-	.c-video-content {flex:80% !important;}
+	.c-video-content {flex:10% !important;}
 	.c-videogallery-slideshow {overflow-x:scroll;}
 	.photo-text-1, .photo-text-2 {width:90%;}
 	.photo-text-1 h3, .photo-text-2 h3 {font-size:1.5rem;}
@@ -508,6 +509,9 @@ header {border-top:var(--rs-red-border-width) solid var(--rs-color);}
 	.footer-newswire-newsbar {flex-direction:column;align-items:center;}
 	.footer-newswire-news {max-width:100% !important;align-items:center;}
 	.footer-newswire-newstitles {text-align:center;}
+	.footer-newswire-logopmc {width: 102px !important;}
+	.footer-newswire-titlebar {align-items:baseline;}
+
 }
 /*Fine Marco css*/
 /*Inizio Davide footer*/
